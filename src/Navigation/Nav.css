@@ -1,0 +1,40 @@
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  background-color: #f1edde;
+  box-shadow: 0 3px 15px 0 rgba(0, 0, 0, .25);
+  align-items: center;
+  padding: 20px;
+  z-index: 999;
+}
+  
+.logo {
+  width: 100px; 
+  height: 100px;
+  object-fit: contain; 
+  margin-right: 200px; 
+  margin-left: 20px;
+}
+
+.nav-container {
+ margin-left: 600px;
+}
+  input {
+    padding: 12px 20px;
+    border: none;
+    background: #f7f6f6;
+    outline: none;
+    margin-right: 20px;
+    border-radius: 5px;
+    position: relative;
+    width: 14rem;
+  }
+  
+  .nav-icons {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-left: 2rem;
+  }
