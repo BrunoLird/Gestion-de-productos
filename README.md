@@ -19,8 +19,8 @@ You may also see any lint errors in the console.
 
 #### `Make sure you have everything configured to be able to run without any problem.`
 
+        "aos": "^2.3.4",
         "react": "^18.2.0",
         "react-dom": "^18.2.0",
         "react-icons": "^4.11.0",
-        "react-scripts": "5.0.1",
 
