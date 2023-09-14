@@ -8,7 +8,9 @@
   
   .card {
     margin: 20px;
-    border: 1.5px solid #ededed;
+    box-shadow: 0 5px 25px 2px rgb(0, 0, 0, 0.11);
+    border-radius: 7px;
+    /* border: 1.5px solid #ededed; */
     padding: 20px;
     cursor: pointer;
     border-radius: 10px;
@@ -17,6 +19,12 @@
   .card-img {
     width: 13rem;
     margin-bottom: 1rem;
+    transition: 0.3s ease-in-out;
+
+  }
+  .card-img:hover {
+    transform: scale(1.1);
+
   }
   
   .card-title {

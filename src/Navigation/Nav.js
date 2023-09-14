@@ -1,5 +1,5 @@
 import { FiHeart } from "react-icons/fi";
-import { AiOutlineShoppingCart, AiOutlineUserAdd } from "react-icons/ai";
+import { AiOutlineLogin } from "react-icons/ai";
 import "./Nav.css";
 import logo from "./Assets/logo.png"
 
@@ -22,10 +22,7 @@ const Nav = ({ handleInputChange, query }) => {
           <FiHeart className="nav-icons" />
         </a>
         <a href="#_">
-          <AiOutlineShoppingCart className="nav-icons" />
-        </a>
-        <a href="#_">
-          <AiOutlineUserAdd className="nav-icons" />
+          <AiOutlineLogin className="nav-icons" />
         </a>
       </div>
     </nav>
